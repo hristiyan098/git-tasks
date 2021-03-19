@@ -1,0 +1,3 @@
+Rebase подход - След resolve на конфликти, трябва да се извика командата git rebase --continue, за да може git да продължи да обработва останалата част от rebase.
+
+Merge подход - след resolve на конфликти, трябва да се добавят промените в staging area (git add .) и след това да се комитнат (git commit -m "Resolved merge conflict...).
